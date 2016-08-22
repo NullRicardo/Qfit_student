@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <!-- 标题 -->
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="24#319段家梁的人台灯损坏"
+                android:textColor="#2F4F4F"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <!-- 事件详细详细-->
+            <LinearLayout
+                android:id="@+id/ll_he_xiangxi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="事件详细"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_xiangxi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="因为段家梁人品爆发导致台灯坏低因坏低"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- 报修图片 -->
+            <LinearLayout
+                android:id="@+id/ll_he_tupian"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="图片详情"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <ImageView
+                    android:id="@+id/tutu"
+                    android:src="@drawable/tuzi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </LinearLayout>
+
+            <!-- 报修时间 -->
+            <LinearLayout
+                android:id="@+id/ll_he_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="报修时间"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="2014年5月9日（周五）晚19：00"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- 报修地址地点 -->
+            <LinearLayout
+                android:id="@+id/ll_he_adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="报修地点"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:text="济南大学学24#319"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+
+            <!--姓名 -->
+            <LinearLayout
+                android:id="@+id/ll_his_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="报修姓名"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:lineSpacingMultiplier="1.4"
+                    android:singleLine="false"
+                    android:text="李青林"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <!-- 电话 -->
+            <LinearLayout
+                android:id="@+id/ll_tel_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:text="电话"
+                    android:textColor="#FF8C00"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_telephone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:lineSpacingMultiplier="1.4"
+                    android:text="17854176768"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_below="@id/ll_tel_phone"
+                android:layout_marginTop="20dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/send_mes"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/message"/>
+                <ImageView
+                    android:id="@+id/del_mes"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/deletet"/>
+                <ImageView
+                    android:id="@+id/call_make"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/phone_call"/>
+                <ImageView
+                    android:id="@+id/map"
+                    android:clickable="true"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/map"/>
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
